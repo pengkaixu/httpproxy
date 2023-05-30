@@ -10,6 +10,20 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+target/
+/.idea/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
 # Package Files #
 *.jar
 *.war
